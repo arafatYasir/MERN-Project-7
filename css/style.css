@@ -7,14 +7,136 @@ a {
     text-decoration: none;
 }
 
-ul, ol {
+ul,
+ol {
     list-style-type: none;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin-top: 0;
     margin-bottom: 0;
     margin-right: 0;
     margin-left: 0;
     line-height: 0.8;
+}
+
+.container {
+    max-width: 1208px;
+}
+
+/* ----Navbar Section---- */
+.navbar {
+    padding: 0;
+    margin-top: 30px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 47px;
+}
+
+.navbar-nav li a {
+    color: #000;
+    font-family: "Poppins", serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 1.5px;
+}
+
+.navbar-brand {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-button button {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    border: 0;
+    background: #5E3BEE;
+    padding: 11px 22px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.nav-button button i {
+    font-size: 18px;
+}
+
+/* ----Banner Section---- */
+#banner {
+    margin-top: 46px;
+}
+
+#banner .info .name {
+    color: #5E3BEE;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+    margin-bottom: 32px;
+}
+
+#banner .info .title {
+    color: #333;
+    font-family: Poppins;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 78px;
+}
+
+.banner-buttons {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+
+.banner-buttons button {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    border-radius: 50px;
+    border: 0;
+    background: #5E3BEE;
+    padding: 22px 38px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.banner-buttons button i {
+    font-size: 18px;
+}
+
+.banner-buttons a {
+    color: #333;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
