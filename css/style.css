@@ -140,3 +140,29 @@ p {
     align-items: center;
     gap: 10px;
 }
+
+/* ----Counter Section---- */
+#counter {
+    margin-top: 129px;
+}
+
+#counter .row h3 {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0.5px;
+}
+
+#counter .row p {
+    color: rgba(18, 18, 18, 0.70);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 8px;
+}
