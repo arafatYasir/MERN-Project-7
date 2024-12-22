@@ -424,6 +424,7 @@ p {
     border-radius: 24px;
     background: #FFF;
     box-shadow: 27px 37px 80px 0px rgba(0, 0, 0, 0.10);
+    max-width: 584px;
 }
 
 #testimony .item .rating {
@@ -473,4 +474,55 @@ p {
 #testimony .comment-box i {
     font-size: 35px;
     color: #5E3BEE;
+}
+
+#testimony .wrapper {
+    display: flex;
+    gap: 40px;
+}
+
+/* ----Contact Section---- */
+#contact {
+    margin-top: 136px;
+}
+
+#contact .container {
+    background: url("../images/contact_bg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 112px 0 126px 0;
+}
+#contact .title {
+    color: #333;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0.25px;
+    max-width: 628px;
+    margin: 0 auto;
+}
+
+#contact button {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    border: 0;
+    background: #5E3BEE;
+    padding: 23px 39px;
+    margin-top: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+}
+
+#contact button i {
+    font-size: 18px;
 }
