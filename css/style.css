@@ -28,6 +28,7 @@ p {
 
 .container {
     max-width: 1208px;
+    padding: 0;
 }
 
 .name {
@@ -93,14 +94,17 @@ p {
 /* ----Banner Section---- */
 #banner {
     margin-top: 46px;
+    background: #F9F9FC;
+    padding-bottom: 40px;
 }
 
 #banner .info .title {
     color: #333;
-    font-family: Poppins;
+    font-family: "Poppins", serif;
     font-size: 60px;
     font-weight: 700;
     line-height: 78px;
+    margin-top: 32px;
 }
 
 .banner-buttons {
@@ -151,16 +155,17 @@ p {
 }
 
 
-#banner .image img:last-child {
+#banner .image img {
     height: 580px;
     position: relative;
-    left: 50%;
+    left: 60%;
+    top: -20px;
     transform: translateX(-50%);
 }
 
 /* ----Counter Section---- */
 #counter {
-    margin-top: 129px;
+    margin-top: 93px;
 }
 
 #counter .row h3 {
@@ -170,6 +175,16 @@ p {
     font-weight: 600;
     line-height: 56px;
     letter-spacing: 0.5px;
+    color: #000;
+}
+
+#counter .row {
+    margin: 0;
+
+}
+
+#counter .row>* {
+    padding: 0;
 }
 
 #counter .row p {
@@ -187,6 +202,7 @@ p {
 /* ----Services Section---- */
 #services {
     margin-top: 133px;
+    padding-bottom: 140px;
 }
 
 #services .name {
@@ -217,7 +233,7 @@ p {
 }
 
 #services .row {
-    margin-top: 64px;
+    margin: 64px 0 0 0;
 }
 
 #services .card {
@@ -261,7 +277,9 @@ p {
 
 /* ----Graphics Designer Section---- */
 #designer {
-    margin-top: 148px;
+    background: #F9F9FC;
+    padding-top: 90px;
+    padding-bottom: 15px;
 }
 
 #designer .title {
@@ -321,7 +339,7 @@ p {
 
 /* ----Logo Section---- */
 #logo {
-    margin-top: 136px;
+    margin-top: 127px;
 }
 
 #logo .wrapper {
@@ -333,6 +351,7 @@ p {
 /* ----Portfolio Section---- */
 #portfolio {
     margin-top: 160px;
+    padding-bottom: 132px;
 }
 
 #portfolio .texts {
@@ -349,6 +368,7 @@ p {
     line-height: 56px;
     letter-spacing: 0.22px;
     color: #000;
+    margin-top: 12px;
 }
 
 #portfolio .texts p {
@@ -382,14 +402,23 @@ p {
 #portfolio .card-title {
     font-family: Poppins;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 32px;
+    letter-spacing: 0.5px;
+}
+
+#portfolio .card-text {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
     letter-spacing: 0.5px;
 }
 
 /* ----Testimony Section---- */
 #testimony {
-    margin-top: 270px;
+    padding-top: 147px;
 }
 
 #testimony .name {
@@ -479,6 +508,7 @@ p {
 #testimony .wrapper {
     display: flex;
     gap: 40px;
+    margin-top: 57px;
 }
 
 /* ----Contact Section---- */
@@ -492,6 +522,7 @@ p {
     background-size: cover;
     background-position: center;
     padding: 112px 0 126px 0;
+    border-radius: 24px;
 }
 
 #contact .title {
@@ -624,4 +655,252 @@ footer .privacy a {
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.5px;
+}
+
+@media screen and (max-width: 414px) {
+    .container {
+        max-width: 366px;
+    }
+
+    .name {
+        text-align: center;
+    }
+
+    /* ----Navbar Section---- */
+    .navbar-nav {
+        gap: 20px;
+    }
+
+    .navbar-toggler-icon {
+        background: url("../images/navbar_toggle_image.webp") no-repeat;
+    }
+
+    /* ----Banner Section---- */
+    #banner {
+        background: #F9F9FC;
+    }
+
+    #banner .name {
+        margin-top: 14px;
+    }
+
+    #banner .info .title {
+        text-align: center;
+        font-size: 44px;
+        line-height: 64px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #banner .image {
+        background-size: contain;
+        height: 440px;
+    }
+
+    #banner .image img {
+        height: 330px;
+        top: 45%;
+        left: 53%;
+        transform: translate(-50%, -50%)
+    }
+
+    .banner-buttons {
+        flex-direction: column;
+    }
+
+    /* ----Counter Section---- */
+    #counter {
+        margin-top: 64px;
+    }
+
+    #counter .row {
+        row-gap: 50px;
+    }
+
+    /* ----Services Section---- */
+    #services {
+        margin-top: 99px;
+        padding-bottom: 64px;
+    }
+
+    #services .title {
+        font-size: 34px;
+        line-height: 40px;
+        letter-spacing: 0.17px;
+        margin-bottom: 6px;
+    }
+
+    #services .row {
+        gap: 30px;
+        margin-top: 27px;
+    }
+
+    /* ----Graphics Designer Section---- */
+    #designer {
+        margin-top: 0;
+        padding: 80px 0;
+    }
+
+    #designer .title {
+        font-size: 44px;
+        line-height: 64px;
+        text-align: center;
+        margin-top: 14px;
+    }
+
+    #designer .description {
+        text-align: center;
+        margin-top: 0;
+    }
+
+    #designer button {
+        margin-top: 14px;
+    }
+
+    .designer-btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    #designer .image {
+        display: none;
+    }
+
+    /* ----Logo Section---- */
+    #logo {
+        margin-top: 67px;
+    }
+
+    #logo .wrapper {
+        flex-wrap: wrap;
+        row-gap: 22px;
+        justify-content: space-between;
+    }
+
+    #logo .wrapper img {
+        width: 166px;
+    }
+
+
+    /* ----Portfolio Section---- */
+    #portfolio {
+        margin-top: 99px;
+        padding-bottom: 64px;
+    }
+
+    #portfolio .texts {
+        flex-direction: column;
+    }
+
+    #portfolio .texts h2 {
+        font-size: 34px;
+        line-height: 40px;
+        letter-spacing: 0.17px;
+    }
+
+    #portfolio .texts p {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #portfolio .card-title {
+        font-size: 16px;
+        line-height: 27px;
+        font-weight: 600;
+    }
+
+    #portfolio .row {
+        column-gap: 30px;
+        margin: 0;
+    }
+
+    #portfolio .row>* {
+        padding: 0;
+    }
+
+    /* ----Testimony Section---- */
+    #testimony {
+        padding: 115px 0 0;
+        background: #F9F9FC;
+    }
+
+    #testimony .title {
+        font-size: 34px;
+        line-height: 40px;
+        letter-spacing: 0.17px;
+    }
+
+    #testimony .description {
+        text-align: center;
+    }
+
+    #testimony .wrapper {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    /* ----Contact Section---- */
+    #contact .container {
+        padding: 73px 0 90px 0;
+    }
+
+    #contact .title {
+        font-size: 38px;
+        line-height: 52px;
+        letter-spacing: 0.19px;
+        text-align: center;
+        max-width: 314px;
+    }
+
+    #contact button {
+        margin-top: 22px;
+    }
+
+    /* ----Footer Section---- */
+    footer {
+        padding: 77px 30px 40px 30px;
+        margin: 0 24px;
+    }
+    footer .wrapper {
+        flex-direction: column;
+    }
+
+    footer .image {
+        width: 209px;
+        margin: 0 auto;
+    }
+
+    footer img {
+        width: 100%;
+    }
+
+    footer .description {
+        text-align: center;
+        margin-top: 14px;
+        margin-bottom: 55px;
+    }
+
+    footer .right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer .line {
+        margin-top: 50px;
+        margin-bottom: 36px;
+    }
+
+    footer .menu {
+        flex-direction: column;
+        gap: 23px;
+    }
+
+    footer .menu ul {
+        gap: 17px;
+    }
+    footer .menu ul a {
+        font-size: 13px;
+    }
 }
