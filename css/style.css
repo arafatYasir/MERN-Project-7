@@ -493,6 +493,7 @@ p {
     background-position: center;
     padding: 112px 0 126px 0;
 }
+
 #contact .title {
     color: #333;
     text-align: center;
@@ -525,4 +526,102 @@ p {
 
 #contact button i {
     font-size: 18px;
+}
+
+/* ----Footer Section---- */
+footer {
+    margin: 0 52px;
+    border-radius: 24px 24px 0px 0px;
+    background: #333;
+    margin-top: 132px;
+    padding: 112px 205px 66px 167px;
+}
+
+footer .wrapper {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+footer .description {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    max-width: 374px;
+    margin-top: 24px;
+    margin-bottom: 75px;
+}
+
+footer .email {
+    margin-bottom: 23px;
+}
+
+footer .email,
+footer .phone {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+footer .email i,
+footer .phone i {
+    font-size: 18px;
+}
+
+footer .icons {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-top: 26px;
+}
+
+footer .icons i {
+    font-size: 23px;
+    color: #FFF;
+}
+
+footer .line {
+    height: 1px;
+    width: 100%;
+    background: #404040;
+    margin-bottom: 52px;
+}
+
+footer .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul {
+    display: flex;
+    gap: 47px;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+footer ul a {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+footer .privacy a {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
 }
