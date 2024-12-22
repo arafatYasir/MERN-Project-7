@@ -166,3 +166,79 @@ p {
     text-transform: uppercase;
     margin-top: 8px;
 }
+
+/* ----Services Section---- */
+#services .name {
+    color: #5E3BEE;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+
+#services .title {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0.22px;
+    margin: 12px 0;
+}
+
+#services .description {
+    color: rgba(18, 18, 18, 0.70);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#services .row {
+    margin-top: 64px;
+}
+
+#services .card {
+    padding: 51px 35px;
+    border: 0;
+    border-radius: 24px;
+    background: #F9F9FC;
+    box-shadow: 37px 37px 80px 0px rgba(0, 0, 0, 0.10);
+}
+
+#services .card img {
+    width: 36px;
+    height: 36px;
+    margin: 0 auto;
+}
+
+#services .card .card-body {
+    padding: 0;
+}
+
+#services .card .card-title {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    margin-top: 35px;
+    margin-bottom: 9px;
+}
+
+#services .card .card-text {
+    color: rgba(18, 18, 18, 0.70);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+}
