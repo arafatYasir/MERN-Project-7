@@ -30,6 +30,17 @@ p {
     max-width: 1208px;
 }
 
+.name {
+    color: #5E3BEE;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
 /* ----Navbar Section---- */
 .navbar {
     padding: 0;
@@ -82,16 +93,6 @@ p {
 /* ----Banner Section---- */
 #banner {
     margin-top: 46px;
-}
-
-#banner .info .name {
-    color: #5E3BEE;
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 26px;
-    letter-spacing: 1.5px;
-    margin-bottom: 32px;
 }
 
 #banner .info .title {
@@ -184,13 +185,11 @@ p {
 }
 
 /* ----Services Section---- */
+#services {
+    margin-top: 133px;
+}
+
 #services .name {
-    color: #5E3BEE;
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 26px;
-    letter-spacing: 1.5px;
     text-align: center;
 }
 
@@ -202,6 +201,7 @@ p {
     line-height: 56px;
     letter-spacing: 0.22px;
     margin: 12px 0;
+    color: #000;
 }
 
 #services .description {
@@ -264,15 +264,6 @@ p {
     margin-top: 148px;
 }
 
-#designer .name {
-    color: #5E3BEE;
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 26px;
-    letter-spacing: 1.5px;
-}
-
 #designer .title {
     color: #333;
     font-family: Poppins;
@@ -326,4 +317,160 @@ p {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+}
+
+/* ----Logo Section---- */
+#logo {
+    margin-top: 136px;
+}
+
+#logo .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* ----Portfolio Section---- */
+#portfolio {
+    margin-top: 160px;
+}
+
+#portfolio .texts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 11px;
+}
+
+#portfolio .texts h2 {
+    font-family: Poppins;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0.22px;
+    color: #000;
+}
+
+#portfolio .texts p {
+    color: rgba(18, 18, 18, 0.70);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    max-width: 557px;
+}
+
+#portfolio .row {
+    row-gap: 45px;
+    margin-top: 50px;
+}
+
+#portfolio .card {
+    border: 0;
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: 37px 37px 80px 0px rgba(0, 0, 0, 0.10);
+}
+
+#portfolio .card .card-body {
+    padding: 0;
+    margin-top: 33px;
+    padding: 0 0 47px 47px;
+}
+
+#portfolio .card-title {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+}
+
+/* ----Testimony Section---- */
+#testimony {
+    margin-top: 270px;
+}
+
+#testimony .name {
+    text-align: center;
+}
+
+#testimony .title {
+    font-family: Poppins;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0.22px;
+    text-align: center;
+    color: #000;
+    margin: 12px 0;
+}
+
+#testimony .description {
+    color: rgba(18, 18, 18, 0.70);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#testimony .item {
+    padding: 44px 58px 44px 42px;
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: 27px 37px 80px 0px rgba(0, 0, 0, 0.10);
+}
+
+#testimony .item .rating {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 32px;
+}
+
+#testimony .item .rating i {
+    color: #EEC01C;
+}
+
+#testimony .comment {
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+    margin-bottom: 27px;
+}
+
+#testimony .item .profile {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+#testimony .item .info h4 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+}
+
+#testimony .item .info p {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+#testimony .comment-box i {
+    font-size: 35px;
+    color: #5E3BEE;
 }
